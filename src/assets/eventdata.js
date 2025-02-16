@@ -26,7 +26,7 @@ const events = {
             start: "24th Feb",
             end: "2nd Mar",
             days: [
-                24, 25, 26, 27,  28
+                24, 25, 26, 27, 28
             ],
             name: "Efficient Hours Played",
             image: 3
@@ -52,7 +52,7 @@ const events = {
         {
             start: "24/02/2025",
             end: "28/02/2025",
-            name: "Skill of the Week - EHP",
+            name: "Efficient Hours Played",
             image: "EHP",
             discord_link: "https://....",
             wom_link: "https://...."
