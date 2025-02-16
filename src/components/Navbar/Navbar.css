@@ -1,0 +1,33 @@
+nav {
+  /* background-color: aquamarine; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-img {
+  height: 60px;
+}
+
+.nav-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-title {
+  margin: auto 0.8em;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav-title:link,
+.nav-title:visited,
+.nav-title:hover,
+.nav-title:active {
+  text-decoration: none;
+  color: var(--red-text);
+}

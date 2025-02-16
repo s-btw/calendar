@@ -1,0 +1,33 @@
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(7, calc(min(13vw, 160px)));
+  text-align: center;
+}
+
+.month-title {
+  margin: 1em 0 1em 0;
+  text-transform: capitalize;
+}
+
+.calendar-empty-entry {
+  background-color: var(--primary-colour);
+  visibility: hidden;
+}
+
+.calendar-entry {
+  background-color: var(--secondary-colour);
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid black;
+}
+
+.calendar-entry-day-container {
+  display: flex;
+  border-bottom: 1px dashed black;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-entry-day {
+  margin: 0.4em 0;
+}

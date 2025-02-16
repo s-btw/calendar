@@ -1,0 +1,24 @@
+.main-content {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  max-width: 900px;
+}
+
+.schedule-title {
+  margin: 0.5em 0 0 0;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.schedule-intro {
+  color: var(--secondary-colour);
+  font-weight: 400;
+}
+
+.schedule-intro-tag {
+  color: var(--secondary-colour);
+}
